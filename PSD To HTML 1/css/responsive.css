@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px){
+
+	.about{
+		width: 50%;
+	}
+	.services{
+		width: 50%;
+	}
+	.contact-single{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 480px){
+
+	.about{
+		width: 100%;
+	}
+	.contact-single{
+		width: 100%;
+	}
+	.contact-form{
+		width: 100%;
+		padding-right: 0;
+	}
+	.message{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.menu ul li a{
+		font-size: 15px;
+	}
+	.slider-content h2{
+		font-size: 30px;
+	}
+	.slider-content h1{
+		font-size: 60px;
+		width: 200px;
+	}
+	.slider-content h3{
+		font-size: 20px;
+	}
+	.services{
+		width: 100%;
+	}
+	#about-us{
+	    padding: 50px 0;
+    }
+    .about{
+    	padding: 30px;
+    }
+	#contact-us{
+	padding: 30px 0;}
+	}
+	#service{
+	padding: 30px 0;
+	}
+}
